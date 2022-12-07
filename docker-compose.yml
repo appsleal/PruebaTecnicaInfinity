@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  api:
+    container_name: InfinityBackend
+    restart: always
+    build: ./
+    ports:
+      - "3554:3554"
+    links:
+      - mongo
+    volumes:
+      - ./:/InfinityBackend
+  
+  mongo:
+    container_name: MongoDatabase
+    image: mongo
+    ports:  
+      - "27017:27017"

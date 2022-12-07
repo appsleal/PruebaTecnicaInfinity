@@ -1,0 +1,25 @@
+{
+  "name": "pruebatecnicainfinity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appsleal/PruebaTecnicaInfinity.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/appsleal/PruebaTecnicaInfinity/issues"
+  },
+  "homepage": "https://github.com/appsleal/PruebaTecnicaInfinity#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moongose": "^1.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
